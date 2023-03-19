@@ -9,3 +9,26 @@ main{
   margin: 0 auto;
   text-align: center;
 }
+
+.Play-btn{
+  background-color: transparent;
+  color: #a8dadc;
+  border: 0;
+  display: inline-block;
+  width: 100px;
+  cursor: pointer;
+  margin-block-start: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
