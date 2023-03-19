@@ -1,9 +1,10 @@
 import "./App.css";
+import Timer from "./components/Timer";
 
 function App() {
   return (
     <main>
-      <h1>sad</h1>
+      <Timer />
     </main>
   );
 }

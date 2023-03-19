@@ -1,0 +1,11 @@
+body{
+  background-color: #1d3557;
+  color: #e63946;
+}
+
+main{
+  padding-block-start: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
