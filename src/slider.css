@@ -1,0 +1,21 @@
+.slider {
+    height: 40px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.thumb{
+    background-color: white;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.slider-break{
+    border: 2px solid #ffb3c6;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
