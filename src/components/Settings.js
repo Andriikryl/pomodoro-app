@@ -1,27 +1,36 @@
+import { useContext } from "react";
 import ReactSlider from "react-slider";
 import "../slider.css";
+import BackButton from "./BackButton";
+import SettingsContext from "./Settings.Context";
 
 function Settings() {
+  const settingsInfo = useContext(SettingsContext);
   return (
     <div className="set-box">
-      <label>work minutes</label>
+      <label>work {settingsInfo.workMinutes}: 00</label>
       <ReactSlider
         className={"slider"}
         thumbClassName={"thumb"}
         trackClassName={"track"}
-        value={45}
+        value={settingsInfo.workMinutes}
+        onChange={(newValue) => settingsInfo.setWorkMinutes(newValue)}
         min={1}
         max={120}
       />
-      <label>break minutes</label>
+      <label>break {settingsInfo.breakMinutes}:00</label>
       <ReactSlider
         className={"slider-break"}
         thumbClassName={"thumb"}
         trackClassName={"track"}
-        value={45}
+        value={settingsInfo.breakMinutes}
+        onChange={(newValue) => settingsInfo.setBreakMinutes(newValue)}
         min={1}
         max={120}
       />
+      <div>
+        <BackButton />
+      </div>
     </div>
   );
 }
