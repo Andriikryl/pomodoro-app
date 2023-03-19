@@ -30,6 +30,18 @@ main{
   margin-block-start: 20px;
 }
 
+.Sett-btn{
+  background-color: transparent;
+  color: #ffc300;
+  border: 0;
+  display: inline-block;
+  width: 70px;
+  cursor: pointer;
+  margin-block-start: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
 
 
 

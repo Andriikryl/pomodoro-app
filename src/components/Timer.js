@@ -2,6 +2,7 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import PauseButton from "./PauseButton";
 import PlayButton from "./PlayButton";
+import SettingsButton from "./SettingsButton";
 
 const red = "#e63946";
 const green = "#3a5a40";
@@ -21,6 +22,9 @@ function Timer() {
       <div>
         <PlayButton />
         <PauseButton />
+      </div>
+      <div>
+        <SettingsButton />
       </div>
     </div>
   );
