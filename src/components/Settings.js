@@ -29,7 +29,7 @@ function Settings() {
         max={120}
       />
       <div>
-        <BackButton />
+        <BackButton onClick={() => settingsInfo.setShowSettings(false)} />
       </div>
     </div>
   );
